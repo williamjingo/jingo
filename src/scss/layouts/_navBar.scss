@@ -1,0 +1,7 @@
+.navigation {
+  @extend .navbar, .navbar-expand-lg, .navbar-light, .bg-transparent;
+
+  &__brand {
+    @extend .navbar-brand, .text-light, .mr-auto;
+  }
+}

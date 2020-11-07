@@ -1,0 +1,14 @@
+.skills {
+  &__list {
+    @extend .list-inline, .px-0, .py-0;
+  }
+
+  &__item {
+    @extend .list-inline-item, .border, .m-1, .py-2, .px-3, .rounded-pill;
+
+    &:hover {
+      @extend .bg-primary, .border-primary, .text-light;
+      cursor: default;
+    }
+  }
+}

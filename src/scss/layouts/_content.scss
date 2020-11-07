@@ -1,0 +1,22 @@
+.content {
+  &__row {
+    @extend .row;
+  }
+
+  &--left {
+    @extend .col-md-5, .vh-100, .bg-primary, .d-flex, .align-items-center;
+
+    @include media-breakpoint-between(md, xl) {
+      padding: 0;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+    }
+  }
+
+  &--right {
+    @extend .col-md-7, .px-md-5, .offset-md-5, .py-5;
+  }
+}

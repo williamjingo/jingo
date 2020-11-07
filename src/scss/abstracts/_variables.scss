@@ -1,0 +1,58 @@
+$primary: #fe6d6e;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$font-family-base: "Poppins", sans-serif;
+
+/** BUTTONS **/
+
+$input-btn-padding-y-lg: 1.1rem;
+$input-btn-padding-x-lg: 2.9rem;
+$input-btn-font-size-lg: 1rem;
+
+$btn-font-family: "Poppins", sans-serif;
+
+$btn-border-width: 0;
+
+$btn-font-weight: 700;
+$btn-border-radius-lg: 0;
+
+// Navs
+
+// $nav-link-padding-y:                .5rem !default;
+// $nav-link-padding-x:                1rem !default;
+// $nav-link-disabled-color:           $gray-600 !default;
+
+// // Navbar
+
+// $navbar-padding-y: 2rem;
+$navbar-padding-y: 0.5rem;
+$navbar-padding-x: 2.5rem;
+
+$navbar-brand-font-size: 2.2rem;
+
+// Headings
+$h1-font-size: 3.75rem;
+$h2-font-size: 2.1875rem;
+$h3-font-size: 1.125rem;
+$h4-font-size: 1rem;
+
+// Forms
+$input-padding-x: 1rem;
+$input-line-height: 2.5;
+
+$input-bg: $gray-300;
+
+$input-border-color: $gray-300;
+
+$input-border-radius: 0px;
+
+$input-placeholder-color: $gray-600;
+$input-plaintext-color: $gray-700;

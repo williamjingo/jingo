@@ -1,0 +1,16 @@
+.social {
+  @extend .py-3;
+
+  &__list {
+    @extend .d-flex, .justify-content-start;
+  }
+
+  &__icon {
+    @extend .mx-2;
+
+    &:hover {
+      color: $primary;
+      cursor: pointer;
+    }
+  }
+}
