@@ -1,9 +1,11 @@
 import React from "react";
+import Space from "./reusable/Space";
 import SocialIcons from "./SocialIcons";
 
 const About = () => {
   return (
     <React.Fragment>
+      <Space size="sm" />
       <h4>Full stack web developer</h4>
       <h1>I'm George Jingo, a Full Stack web developer</h1>
       <p>

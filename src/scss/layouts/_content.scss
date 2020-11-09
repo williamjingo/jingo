@@ -4,15 +4,23 @@
   }
 
   &--left {
-    @extend .col-md-5, .vh-100, .bg-primary, .d-flex, .align-items-center;
+    @extend .col-md-5,
+      .bg-primary,
+      .d-flex,
+      .align-items-center,
+      .flex-column,
+      .flex-md-row;
 
-    @include media-breakpoint-between(md, xl) {
+    padding: 0.8rem 0 0 0;
+
+    @include media-breakpoint-up(md) {
       padding: 0;
       position: fixed;
       top: 0;
       right: 0;
       left: 0;
       z-index: 1030;
+      height: 100vh;
     }
   }
 

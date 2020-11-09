@@ -1,0 +1,8 @@
+.space {
+  &--lg {
+    @extend .py-md-5, .py-3;
+  }
+  &--sm {
+    @extend .py-md-5, .py-2;
+  }
+}

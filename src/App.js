@@ -1,12 +1,13 @@
 import React from "react";
 import "./scss/App.scss";
 import NavBar from "./components/NavBar";
-import InvertedName from "./components/InvertedName";
 import About from "./components/About";
 import WorkExperience from "./components/WorkExperience";
 import Skills from "./components/Skills";
 import WorkPortfolio from "./components/WorkPortfolio";
 import MessageForm from "./components/MessageForm";
+import Candidate from "./components/Candidate";
+import Space from "./components/reusable/Space";
 
 function App() {
   return (
@@ -15,23 +16,18 @@ function App() {
       <main role="main" className="container-fluid">
         <div className="content content__row">
           <div className="content content--left">
-            <img
-              src="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-              className="photo"
-            />
-            <InvertedName firstName="JINGO" lastName="GEORGE" />
+            <Candidate />
           </div>
           <div className="content content--right">
-            <div className="py-5"></div>
+            <Space size="lg" />
             <About />
-            <div className="py-3"></div>
+            <Space size="sm" />
             <WorkExperience />
-            <div className="py-3"></div>
+            <Space size="sm" />
             <Skills />
-            <div className="py-3"></div>
+            <Space size="sm" />
             <WorkPortfolio />
-            <div className="py-3"></div>
+            <Space size="sm" />
             <MessageForm />
           </div>
         </div>

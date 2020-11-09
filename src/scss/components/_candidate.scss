@@ -1,0 +1,29 @@
+.candidate {
+  &__name {
+    @extend .py-1;
+    font-family: "Poppins", sans-serif;
+    font-size: 13vw;
+    line-height: 1;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    cursor: default;
+
+    @include media-breakpoint-up(md) {
+      font-size: 9vh;
+      letter-spacing: 0.8rem;
+      margin-left: auto;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      transform: rotate(-180deg);
+    }
+  }
+
+  &__photo {
+    height: 35vh;
+    @include media-breakpoint-up(md) {
+      height: 40vw;
+    }
+  }
+}

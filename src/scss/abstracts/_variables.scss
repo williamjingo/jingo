@@ -11,6 +11,8 @@ $gray-900: #212529;
 
 $font-family-base: "Poppins", sans-serif;
 
+$enable-responsive-font-sizes: true;
+
 /** BUTTONS **/
 
 $input-btn-padding-y-lg: 1.1rem;
@@ -23,12 +25,6 @@ $btn-border-width: 0;
 
 $btn-font-weight: 700;
 $btn-border-radius-lg: 0;
-
-// Navs
-
-// $nav-link-padding-y:                .5rem !default;
-// $nav-link-padding-x:                1rem !default;
-// $nav-link-disabled-color:           $gray-600 !default;
 
 // // Navbar
 
