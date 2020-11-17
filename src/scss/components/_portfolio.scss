@@ -2,11 +2,64 @@
   display: grid;
   gap: 0.5rem;
   grid-template-columns: repeat(3, 1fr);
+
+  &__item {
+    position: relative;
+    cursor: pointer;
+  }
+
+  &__stack {
+    @extend .d-flex, .flex-column;
+    position: absolute;
+    top: 0;
+    svg {
+      @extend .text-light;
+      padding: 0.4rem;
+      width: 2rem !important;
+      height: 2rem;
+    }
+  }
+
   &__img {
-    @extend .img-fluid;
+    @extend .img-fluid, .img-thumbnail;
   }
 
   @include media-breakpoint-down(sm) {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .project {
+    display: none;
+  }
+}
+
+.portfolio__item--selected {
+  background-color: $gray-200;
+  grid-column: 1 / -1;
+  grid-row: 1 / 3;
+
+  & img {
+    display: none;
+  }
+
+  &:hover {
+    transform: none;
+  }
+
+  .project {
+    @extend .d-block;
+  }
+}
+
+.project {
+  @extend .p-2;
+
+  &__title {
+    @extend .lead, .text-center;
+    padding-bottom: 0 !important;
+  }
+
+  &__description {
+    @extend .text-justify;
   }
 }

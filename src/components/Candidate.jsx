@@ -14,7 +14,7 @@ const Candidate = () => {
 
   return (
     <React.Fragment>
-      <img src={photo} alt="photo" className="candidate__photo" />
+      <img src={photo} alt={fName} className="candidate__photo" />
       <div className="candidate__name">
         {fName} {lName}
       </div>
