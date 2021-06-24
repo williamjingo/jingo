@@ -5,7 +5,6 @@ import About from "./components/About";
 import WorkExperience from "./components/work/WorkExperience";
 import Skills from "./components/skills/Skills";
 import WorkPortfolio from "./components/portfolio/Portfolios";
-import MessageForm from "./components/MessageForm";
 import Candidate from "./components/Candidate";
 import Space from "./components/reusable/Space";
 
@@ -27,8 +26,6 @@ function App() {
             <Skills />
             <Space size="sm" />
             <WorkPortfolio />
-            <Space size="sm" />
-            <MessageForm />
           </div>
         </div>
       </main>
