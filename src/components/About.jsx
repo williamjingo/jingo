@@ -15,9 +15,9 @@ const About = () => {
       </p>
       <p>My primary tech stack is:</p>
       <ul>
-        <li>PHP – Laravel</li>
-        <li>JavaScript – React, Vue.js</li>
-        <li>Node.js – Express.js</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Python</li>
       </ul>
       <SocialIcons />
     </React.Fragment>

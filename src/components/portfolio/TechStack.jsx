@@ -6,6 +6,8 @@ import {
   faReact,
   faVuejs,
   faNodeJs,
+  faAndroid,
+  faApple
 } from "@fortawesome/free-brands-svg-icons";
 
 const TechStack = ({ stack }) => {
@@ -20,6 +22,12 @@ const TechStack = ({ stack }) => {
 
   if (stack === "nodejs")
     return <FontAwesomeIcon icon={faNodeJs} className="bg-success" />;
+
+  if (stack === "android")
+    return <FontAwesomeIcon icon={faAndroid} className="bg-success" />;
+
+  if (stack === "ios")
+    return <FontAwesomeIcon icon={faApple} className="bg-dark" />;
 
   return null;
 };

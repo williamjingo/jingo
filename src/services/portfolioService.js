@@ -22,7 +22,7 @@ const portfolio = [
     title: "Cplan",
     img:
       "https://res.cloudinary.com/wljin/image/upload/v1605629866/personal%20website/cplan_mh1kfq.png",
-    stack: ["laravel", "react"],
+    stack: ["laravel", "react", "android", "ios"],
     description:
       "As the team lead and backend developer in the development of the CPlan Platform. I actively participated in activities such as communication with the user community during requirements analysis, prototyping, system analysis, development, fielding, and maintenance of systems",
   },
