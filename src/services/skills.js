@@ -4,6 +4,7 @@ const skills = [
   "Python",
   "Golang",
   "Typescript",
+  "Postgres",
   "Mysql",
   "OrientDB",
   "Laravel",
