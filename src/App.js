@@ -7,6 +7,7 @@ import Skills from "./components/skills/Skills";
 import WorkPortfolio from "./components/portfolio/Portfolios";
 import Candidate from "./components/Candidate";
 import Space from "./components/reusable/Space";
+import ContactInfo from "./components/Contact";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
             <Skills />
             <Space size="sm" />
             <WorkPortfolio />
+            <Space size="sm" />
+            <ContactInfo />
           </div>
         </div>
       </main>
