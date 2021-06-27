@@ -6,10 +6,10 @@ const About = () => {
   return (
     <React.Fragment>
       <Space size="sm" />
-      <h4>Full stack web developer</h4>
-      <h1>I'm George Jingo, a Full Stack web developer</h1>
+      <h4>Full Dtack Software Engineer</h4>
+      <h1>I'm George Jingo, a Full Stack Software Engineer</h1>
       <p>
-        I am a fullstack software engineer with 6+ years experience in building well
+        I am a full stack software engineer with 6+ years experience in building well
         optimized user-centric and interactive solutions leveraging technical,
         analytical and problem solving skills.
       </p>
@@ -18,6 +18,7 @@ const About = () => {
         <li>JavaScript</li>
         <li>PHP</li>
         <li>Python</li>
+        <li>Golang</li>
       </ul>
       <SocialIcons />
     </React.Fragment>
